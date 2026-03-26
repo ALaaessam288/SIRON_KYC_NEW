@@ -2,7 +2,7 @@ package com.bpm.core.PDFSIRON.Controller;
 
 import com.bpm.core.PDFSIRON.PDFGenerator;
 import com.bpm.core.PDFSIRON.Request.SironRequest;
-import com.bpm.core.PDFSIRON.Configs.SironResponse;
+import com.bpm.core.PDFSIRON.Response.SironResponse;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
