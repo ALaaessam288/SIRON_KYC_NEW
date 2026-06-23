@@ -232,7 +232,7 @@ public class PDFGenerator {
         addFieldIfPresent(table, "Comment", match.path("watchListData").path("slRemark"), defaultFont);
         processIdentificationDocuments(table, match, defaultFont);
         processNames(table, match, defaultFont);
-//        processBirthDates(table, match, defaultFont);
+        processBirthDates(table, match, defaultFont);
         processNationalities(table, match, defaultFont);
         processAddresses(table, match, defaultFont);
         table.addCell(new Cell(1, 4).add(new Paragraph("Alert Words").setFont(boldFont)).setFontSize(9.0F).setPaddingLeft(10.0F).setBackgroundColor(HEADER_BG).setBold());
