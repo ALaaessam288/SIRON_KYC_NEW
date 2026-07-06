@@ -4470,7 +4470,8 @@
                       },
                       "place": {
                         "nil": "true"
-                      }
+                      },
+                      "slDateLong" : "1957/07/30"
                     }
                   ],
                   "slCitizs": [
@@ -4812,7 +4813,9 @@
                       },
                       "place": {
                         "nil": "true"
-                      }
+                      },
+                      "slDateLong" : "1988/07/30"
+
                     }
                   ],
                   "slCitizs": [
